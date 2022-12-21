@@ -10,8 +10,7 @@ pipeline {
     stages {
 //         stage('git clone') {
 //             steps {
-//               git branch: 'master', credentialsId: 'password',url: "https://github.com.git" 
-//               sh "ls -ll"
+//               git 'https://github.com/Phani808/Demo-Swhizz.git'
 //             }
 //         }
         
