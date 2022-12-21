@@ -104,7 +104,7 @@ locals {
   region                     = "us-east-1"
   vpc_cidr                   = "10.0.0.0/16"
   instance_count             = 1
-  ami                        = "ami-02701bcdc5509e57b"
+  ami                        = "ami-0b5eea76982371e91"
   key_name                   = "ec2ssh"
   use_num_suffix             = false
   num_suffix_format          = "-%d"
