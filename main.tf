@@ -100,11 +100,11 @@ resource "aws_instance" "awsvm" {
 
 locals {
   environment                = "test"
-  availability_zones         = ["us-east-2a", "us-east-2b", "us-east-2c"]
-  region                     = "us-east-2"
+  availability_zones         = ["us-west-2a", "us-west-2b", "us-west-2c"]
+  region                     = "us-west-2"
   vpc_cidr                   = "10.0.0.0/16"
   instance_count             = 1
-  ami                        = "ami-0ea1d45dcdd47edf6"
+  ami                        = "ami-0fc161d91b03576d0"
   key_name                   = "ec2ssh"
   use_num_suffix             = false
   num_suffix_format          = "-%d"
