@@ -7,9 +7,9 @@ pipeline {
             description: ''
         )
     }
-    environment {
-        aws_access_key_id   = credentials('aws_access_key_id')
-        aws_secret_access_key = credentials('aws_secret_access_key')
+   environment {
+        AWS_ACCESS_KEY_ID     = credentials('AWS_ACCESS_KEY_ID')
+        AWS_SECRET_ACCESS_KEY = credentials('AWS_SECRET_ACCESS_KEY')
     }
     stages {
 //         stage('git clone') {
