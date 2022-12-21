@@ -100,8 +100,8 @@ resource "aws_instance" "awsvm" {
 
 locals {
   environment                = "test"
-  availability_zones         = ["us-west-2a", "us-west-2b", "us-west-2c"]
-  region                     = "us-west-2"
+  availability_zones         = ["us-west-1a", "us-west-1b", "us-west-1c"]
+  region                     = "us-west-1"
   vpc_cidr                   = "10.0.0.0/16"
   instance_count             = 1
   ami                        = "ami-0fc161d91b03576d0"
